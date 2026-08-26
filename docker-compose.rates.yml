@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  rates-service:
+    build:
+      context: ./rates_service
+      dockerfile: Dockerfile
+    container_name: rates_service
+    ports:
+      - "8001:8001"
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
