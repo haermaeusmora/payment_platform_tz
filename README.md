@@ -31,7 +31,7 @@
 
 ```bash
 # Клонируйте репозиторий
-git clone https://github.com/haermaeusmora/tzforitworld
+git clone https://github.com/haermaeusmora/payment_platform_tz
 cd testforitworld
 
 # Создайте и активируйте виртуальное окружение
